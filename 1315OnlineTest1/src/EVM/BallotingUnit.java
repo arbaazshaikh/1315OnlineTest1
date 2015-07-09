@@ -13,7 +13,10 @@ public void addCandidate(String name,int index){
 	slot.get(index).c.setName(name);
 }
 public int vote(int no){
-	if (r.getState()=="ready")
+	if (r.getState().equals("ready")){
+		slot.get(no).b.press();
+		return 1;
+	}
 	return 0;
 	
 }
