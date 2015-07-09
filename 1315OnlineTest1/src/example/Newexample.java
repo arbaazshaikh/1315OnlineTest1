@@ -8,5 +8,7 @@ public class Newexample {
 		num=22;
 		s="arbaaz";
 	}
-
+	void getvalues(){
+		System.out.println(num+""+s);
+	}
 }
