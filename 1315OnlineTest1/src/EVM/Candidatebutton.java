@@ -1,12 +1,11 @@
 package EVM;
 
-public class Candidatebutton {
-String butvalue;
+public class Candidatebutton implements Button{
+
 	
-	public String press(String butvalue){
-		this.butvalue = butvalue;
-		return butvalue;
+	public void press() {
 	}
+	
 
 
 }
